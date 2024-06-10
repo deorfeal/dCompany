@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dcompany</title>
+    <title>Portfolio</title>
     <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,6 +83,28 @@
 
         <div class="wrapper">
             <main class="main">
+                <div class="main__breadcrumbs breadcrumbs" data-aos="fade-right">
+                    <div class="container">
+                        <div class="breadcrumbs__inner">
+                            <ul class="breadcrumbs__list">
+                                <li class="breadcrumbs__list-item">
+                                    <a class="breadcrumbs__list-link" href="index.html">
+                                        Главная
+                                        <svg width="13" height="8" viewBox="0 0 13 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M6.42093 0.579341C6.636 0.579341 6.85103 0.661458 7.015 0.825345L12.1747 5.98513C12.503 6.31335 12.503 6.84551 12.1747 7.17361C11.8466 7.5017 11.3146 7.5017 10.9863 7.17361L6.42093 2.60795L1.85551 7.17345C1.52728 7.50154 0.995282 7.50154 0.667215 7.17345C0.33883 6.84535 0.33883 6.31319 0.667215 5.98497L5.82686 0.825185C5.99091 0.661272 6.20595 0.579341 6.42093 0.579341Z"
+                                                fill="#7127BA" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="breadcrumbs__list-item">
+                                    Портфолио
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <section class="main__portfolio portfolio">
                     <div class="container">
                         <h1 class="portfolio__title" data-aos="fade-right">
@@ -94,200 +116,1625 @@
                         </p>
                         <div class="portfolio__tubs tubs" data-aos="fade-right">
                             <div class="tubs__inner">
-                                <button class="tubs__button tubs-button tubs-button--active" id="0">
+                                <button class="tubs__button tubs-button" data-filter=".all" id="0">
                                     Все
+                                    <span>
+
+                                    </span>
                                 </button>
-                                <button class="tubs__button tubs-button" id="1">
+                                <button class="tubs__button tubs-button" id="1" data-filter=".best">
                                     Лучшие
+                                    <span>
+
+                                    </span>
                                 </button>
-                                <button class="tubs__button tubs-button" id="2">
+                                <button class="tubs__button tubs-button" id="2" data-filter=".land">
                                     Лендинги
+                                    <span>
+
+                                    </span>
                                 </button>
-                                <button class="tubs__button tubs-button" id="3">
+                                <button class="tubs__button tubs-button" id="3" data-filter=".internet-shop">
                                     Интернет магазины
+                                    <span>
+
+                                    </span>
                                 </button>
-                                <button class="tubs__button tubs-button" id="4">
+                                <button class="tubs__button tubs-button" id="4" data-filter=".animated">
                                     Анимированные сайты
+                                    <span>
+
+                                    </span>
                                 </button>
-                                <button class="tubs__button tubs-button" id="5">
+                                <button class="tubs__button tubs-button" id="5" data-filter=".multipage">
                                     Многостраничники
+                                    <span>
+
+                                    </span>
+                                </button>
+                                <button class="tubs__button tubs-button" id="5" data-filter=".quiz">
+                                    Опросники
+                                    <span>
+
+                                    </span>
                                 </button>
                             </div>
                         </div>
                         <div class="portfolio__inner">
                             <div class="portfolio__wrapper" id="0">
-                                <div class="portfolio__heading">
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/full.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
-                                            </a>
-                                            <p class="card-info__tag tag">
-                                                Новое
-                                            </p>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
-                                            </a>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="portfolio__wrap">
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Agenlist.html">
+                                                <img class="card-link__img" src="images/project-img-1.jpg" alt="img">
                                             </a>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
+                                            <div class="card__info card-info">
+                                                <a class="card-info__link" href="projects/Agenlist.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Agenlist
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__tag tag">
+                                                    wedding
+                                                </p>
+                                                <p class="card-info__text">
+                                                    with you forever
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
+                                    <div class="portfolio__card card mix all internet-shop multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Airstrefa.html">
+                                                <img class="card-link__img" src="images/project-img-2.jpg" alt="img">
                                             </a>
-                                            <p class="card-info__tag tag">
-                                                Новое
-                                            </p>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
+                                            <div class="card__info card-info">
+                                                <a class="card-info__link" href="projects/Airstrefa.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Airstrefa
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__tag tag">
+
+                                                </p>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
+                                    <div class="portfolio__card card mix all internet-shop multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/TablePlay.html">
+                                                <img class="card-link__img" src="images/project-img-3.jpg" alt="img">
                                             </a>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/TablePlay.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Table Play
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__tag tag">
+
+                                                </p>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
+                                    <div class="portfolio__card card mix all animated multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/IndustrialAlpinism.html">
+                                                <img class="card-link__img" src="images/project-img-4.jpg" alt="img">
                                             </a>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/IndustrialAlpinism.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Industrial Alpinism
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
+                                    <div class="portfolio__card card mix all animated multipage internet-shop">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/AstMebel.html">
+                                                <img class="card-link__img" src="images/project-img-5.jpg" alt="img">
                                             </a>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/AstMebel.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Ast mebel
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
+                                    <div class="portfolio__card card mix all land ">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/6.html">
+                                                <img class="card-link__img" src="images/project-img-6.jpg" alt="img">
                                             </a>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/6.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Keymoto
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Technicopol.html">
+                                                <img class="card-link__img" src="images/project-img-7.jpg" alt="img">
                                             </a>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Technicopol.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Technicopol
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
+                                    <div class="portfolio__card card mix all quiz animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/TeslaBlack.html">
+                                                <img class="card-link__img" src="images/project-img-8.jpg" alt="img">
                                             </a>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/TeslaBlack.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Tesla Black
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="portfolio__card card" data-aos="flip-up">
-                                        <a class="card__link card-link" href="#">
-                                            <img class="card-link__img" src="images/UpWork.jpg" alt="img">
-                                        </a>
-                                        <div class="card__info card-info" data-aos="fade-right">
-                                            <a class="card-info__link" href="#">
-                                                <h3 class="card-info__link-title">
-                                                    Playn Chill Site
-                                                </h3>
+                                    <div class="portfolio__card card mix all animated multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/AutoShumka.html">
+                                                <img class="card-link__img" src="images/project-img-9.jpg" alt="img">
                                             </a>
-                                            <p class="card-info__text">
-                                                Приложение
-                                            </p>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/AutoShumka.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Auto Shumka
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Carabus.html">
+                                                <img class="card-link__img" src="images/project-img-10.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Carabus.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Carabus
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/HermesCapital.html">
+                                                <img class="card-link__img" src="images/project-img-11.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/HermesCapital.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Hermes Capital
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage internet-shop animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Usta.html">
+                                                <img class="card-link__img" src="images/project-img-12.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Usta.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Usta
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage internet-shop animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Caspian.html">
+                                                <img class="card-link__img" src="images/project-img-13.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Caspian.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Caspian
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all internet-shop multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Cassiel.html">
+                                                <img class="card-link__img" src="images/project-img-14.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Cassiel.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Cassiel
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage internet-shop animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Velona.html">
+                                                <img class="card-link__img" src="images/project-img-15.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Velona.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Velona
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Vinrent.html">
+                                                <img class="card-link__img" src="images/project-img-16.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Vinrent.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Vinrent
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/ComfortTags.html">
+                                                <img class="card-link__img" src="images/project-img-17.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/ComfortTags.html">
+                                                    <h3 class="card-info__link-title">
+                                                        ComfortTags
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/CryptoGroup.html">
+                                                <img class="card-link__img" src="images/project-img-18.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/CryptoGroup.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Crypto Group
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/VivaBuilder.html">
+                                                <img class="card-link__img" src="images/project-img-19.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/VivaBuilder.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Viva Builder
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/WhiteLead.html">
+                                                <img class="card-link__img" src="images/project-img-20.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/WhiteLead.html">
+                                                    <h3 class="card-info__link-title">
+                                                        White Lead
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/DesignLab.html">
+                                                <img class="card-link__img" src="images/project-img-21.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/DesignLab.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Design Lab
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/DriveSchools.html">
+                                                <img class="card-link__img" src="images/project-img-22.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/DriveSchools.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Drive Schools
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Zetachain.html">
+                                                <img class="card-link__img" src="images/project-img-23.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Zetachain.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Zetachain
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/OwnrWallet.html">
+                                                <img class="card-link__img" src="images/project-img-24.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/OwnrWallet.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Ownr Wallet
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Eksana.html">
+                                                <img class="card-link__img" src="images/project-img-25.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Eksana.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Eksana
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/EuroNews.html">
+                                                <img class="card-link__img" src="images/project-img-26.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/EuroNews.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Euro news
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/DatingSystem.html">
+                                                <img class="card-link__img" src="images/project-img-27.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/DatingSystem.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Dating System
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/DemiCube.html">
+                                                <img class="card-link__img" src="images/project-img-28.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/DemiCube.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Demi Cube
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/FoodTruck.html">
+                                                <img class="card-link__img" src="images/project-img-29.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/FoodTruck.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Food Truck
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Forsage.html">
+                                                <img class="card-link__img" src="images/project-img-30.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Forsage.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Forsage
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Ecosoyuz.html">
+                                                <img class="card-link__img" src="images/project-img-31.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Ecosoyuz.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Ecosoyuz
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/BFFond.html">
+                                                <img class="card-link__img" src="images/project-img-32.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/BFFond.html">
+                                                    <h3 class="card-info__link-title">
+                                                        BF Fond
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/FpvPilots.html">
+                                                <img class="card-link__img" src="images/project-img-33.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/FpvPilots.html">
+                                                    <h3 class="card-info__link-title">
+                                                        FPV Pilots
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Golovinski.html">
+                                                <img class="card-link__img" src="images/project-img-34.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Golovinski.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Golovinski
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/ForYou.html">
+                                                <img class="card-link__img" src="images/project-img-35.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/ForYou.html">
+                                                    <h3 class="card-info__link-title">
+                                                        For You
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all internet-shop multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Interior.html">
+                                                <img class="card-link__img" src="images/project-img-36.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Interior.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Interior
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage internet-shop animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/HealthDS.html">
+                                                <img class="card-link__img" src="images/project-img-37.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/HealthDS.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Health Design
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/KeymotoTaxi.html">
+                                                <img class="card-link__img" src="images/project-img-38.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/KeymotoTaxi.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Keymoto Taxi
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all animated multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/GoldenCash.html">
+                                                <img class="card-link__img" src="images/project-img-39.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/GoldenCash.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Golden Cash
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all animated land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/ArbitroomLabs.html">
+                                                <img class="card-link__img" src="images/project-img-40.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/ArbitroomLabs.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Arbitroom Labs
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/KeymotoLimo.html">
+                                                <img class="card-link__img" src="images/project-img-41.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/KeymotoLimo.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Keymoto Limo
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Maestrello.html">
+                                                <img class="card-link__img" src="images/project-img-42.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Maestrello.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Pizza Maestrello Frozen
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Traffic.html">
+                                                <img class="card-link__img" src="images/project-img-43.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Traffic.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Traffic
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/44.html">
+                                                <img class="card-link__img" src="images/project-img-44.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/44.html">
+                                                    <h3 class="card-info__link-title">
+                                                        SATP
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Cryptocurrency.html">
+                                                <img class="card-link__img" src="images/project-img-45.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Cryptocurrency.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Cryptocurrency
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Marketing.html">
+                                                <img class="card-link__img" src="images/project-img-46.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Marketing.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Marketing
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Mirage.html">
+                                                <img class="card-link__img" src="images/project-img-47.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Mirage.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Mirage
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/LaslesVPN.html">
+                                                <img class="card-link__img" src="images/project-img-48.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/LaslesVPN.html">
+                                                    <h3 class="card-info__link-title">
+                                                        LaslesVPN
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Maximizator.html">
+                                                <img class="card-link__img" src="images/project-img-49.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Maximizator.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Maximizator
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/MevMagic.html">
+                                                <img class="card-link__img" src="images/project-img-50.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/MevMagic.html">
+                                                    <h3 class="card-info__link-title">
+                                                        MEVMagic
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Amid.html">
+                                                <img class="card-link__img" src="images/project-img-51.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Amid.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Amid
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/52.html">
+                                                <img class="card-link__img" src="images/project-img-52.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/52.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Antools
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all smt">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/53.html">
+                                                <img class="card-link__img" src="images/project-img-53.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/53.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Moonbird
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/MovaMu.html">
+                                                <img class="card-link__img" src="images/project-img-54.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/MovaMu.html">
+                                                    <h3 class="card-info__link-title">
+                                                        MovaMu
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Plain.html">
+                                                <img class="card-link__img" src="images/project-img-55.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Plain.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Plain
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Sinauw.html">
+                                                <img class="card-link__img" src="images/project-img-56.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Sinauw.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Sinauw
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage internet-shop">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Vietnam.html">
+                                                <img class="card-link__img" src="images/project-img-57.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Vietnam.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Vietnam
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Omex.html">
+                                                <img class="card-link__img" src="images/project-img-58.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Omex.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Omex
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Supabase.html">
+                                                <img class="card-link__img" src="images/project-img-59.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Supabase.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Supabase
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Travel.html">
+                                                <img class="card-link__img" src="images/project-img-60.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Travel.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Travel
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all lands">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/OnlyOne.html">
+                                                <img class="card-link__img" src="images/project-img-61.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/OnlyOne.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Only one
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/PaybackLTD.html">
+                                                <img class="card-link__img" src="images/project-img-62.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/PaybackLTD.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Payback-LTD
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all animated quiz">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Crypto.html">
+                                                <img class="card-link__img" src="images/project-img-63.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Crypto.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Crypto
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/GSTRA.html">
+                                                <img class="card-link__img" src="images/project-img-64.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/GSTRA.html">
+                                                    <h3 class="card-info__link-title">
+                                                        GSTRA
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Peterson.html">
+                                                <img class="card-link__img" src="images/project-img-65.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Peterson.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Peterson Academy
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all internet-shop multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Playnchill.html">
+                                                <img class="card-link__img" src="images/project-img-66.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Playnchill.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Playnchill
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/HistorySkills.html">
+                                                <img class="card-link__img" src="images/project-img-67.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/HistorySkills.html">
+                                                    <h3 class="card-info__link-title">
+                                                        History Skills
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/HomeAdvizor.html">
+                                                <img class="card-link__img" src="images/project-img-68.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/HomeAdvizor.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Home Advizor
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/ProperTrade.html">
+                                                <img class="card-link__img" src="images/project-img-69.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/ProperTrade.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Proper Trade
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Prostor.html">
+                                                <img class="card-link__img" src="images/project-img-70.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Prostor.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Prostor
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Oxorio.html">
+                                                <img class="card-link__img" src="images/project-img-71.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Oxorio.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Oxorio
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/ProstorLk.html">
+                                                <img class="card-link__img" src="images/project-img-72.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/ProstorLk.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Prostor lk
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Push.html">
+                                                <img class="card-link__img" src="images/project-img-73.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Push.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Push
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Refino.html">
+                                                <img class="card-link__img" src="images/project-img-74.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Refino.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Refino
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/PushLk.html">
+                                                <img class="card-link__img" src="images/project-img-75.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/PushLk.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Push lk
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all quiz animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Quantumai.html">
+                                                <img class="card-link__img" src="images/project-img-76.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Quantumai.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Quantum AI
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all internet-shop multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Renity.html">
+                                                <img class="card-link__img" src="images/project-img-77.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Renity.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Renity
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/RenityTwo.html">
+                                                <img class="card-link__img" src="images/project-img-78.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/RenityTwo.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Renity Two
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/ZaAssistance.html">
+                                                <img class="card-link__img" src="images/project-img-79.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/ZaAssistance.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Za assistance
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/ZaAssistanceLk.html">
+                                                <img class="card-link__img" src="images/project-img-80.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/ZaAssistanceLk.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Za assistance lk
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/RenityThird.html">
+                                                <img class="card-link__img" src="images/project-img-81.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/RenityThird.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Renity Third
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage internet-shop">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Ritm.html">
+                                                <img class="card-link__img" src="images/project-img-82.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Ritm.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Ritm
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Nobel.html">
+                                                <img class="card-link__img" src="images/project-img-83.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Nobel.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Nobel SMM
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/SuperMoms.html">
+                                                <img class="card-link__img" src="images/project-img-84.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/SuperMoms.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Super Moms
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Prometal.html">
+                                                <img class="card-link__img" src="images/project-img-85.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Prometal.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Prometal
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Rythmex.html">
+                                                <img class="card-link__img" src="images/project-img-86.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Rythmex.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Rythmex
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/BellaVladi.html">
+                                                <img class="card-link__img" src="images/project-img-87.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/BellaVladi.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Bella Vladi
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Scutum.html">
+                                                <img class="card-link__img" src="images/project-img-88.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Scutum.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Scutum
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+
+                                            <a class="card__link card-link" href="projects/EvGrandPremium.html">
+                                                <img class="card-link__img" src="images/project-img-89.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/EvGrandPremium.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Ev Grand Premium
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all multipage animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/Swift.html">
+                                                <img class="card-link__img" src="images/project-img-90.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/Swift.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Swift
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land animated">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/WebDesginCourse.html">
+                                                <img class="card-link__img" src="images/project-img-91.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/WebDesginCourse.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Web Desgin Course
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio__card card mix all land">
+                                        <div class="card__wrapper" data-aos="flip-up">
+                                            <a class="card__link card-link" href="projects/ERTAS.html">
+                                                <img class="card-link__img" src="images/project-img-92.jpg" alt="img">
+                                            </a>
+                                            <div class="card__info card-info" data-aos="fade-right">
+                                                <a class="card-info__link" href="projects/ERTAS.html">
+                                                    <h3 class="card-info__link-title">
+                                                        Er Tas Qurylys
+                                                    </h3>
+                                                </a>
+                                                <p class="card-info__text">
+
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -405,8 +1852,8 @@
                                         <div class="contact-form__box">
                                             <input class="contact-form__box-input" type="text" placeholder="Ваше имя"
                                                 required>
-                                            <input class="contact-form__box-input" type="email" placeholder="Ваша почта или Telegram"
-                                                required>
+                                            <input class="contact-form__box-input" type="email"
+                                                placeholder="Ваша почта или Telegram" required>
                                         </div>
                                         <div class="contact-form__box">
                                             <textarea class="contact-form__box-textarea" placeholder="Ваш вопрос"
@@ -451,6 +1898,28 @@
                         </div>
                     </div>
                 </section>
+                <div class="main__socials socials" data-aos="zoom-in">
+                    <div class="socials__box">
+                        <span>
+
+                        </span>
+                        <span>
+
+                        </span>
+                        <span>
+
+                        </span>
+                        <a class="socials__box-link" href="#" id="0" target="_blank">
+                            <img src="images/instagram-icon.svg" alt="skype">
+                        </a>
+                        <a class="socials__box-link" href="#" id="1" target="_blank">
+                            <img src="images/telegram-icon.svg" alt="whatsapp">
+                        </a>
+                        <a class="socials__box-link" href="#" id="2" target="_blank">
+                            <img src="images/whatsapp-icon.svg" alt="telegram">
+                        </a>
+                    </div>
+                </div>
             </main>
             <footer class="footer">
                 <div class="container">
@@ -519,6 +1988,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
